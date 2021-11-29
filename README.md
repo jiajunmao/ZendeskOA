@@ -15,6 +15,12 @@ There are two external libraries used for this project
 - snakeyaml [[link]](https://github.com/spariev/snakeyaml) - used for parsing some configuration files related to cli
 
 ## Project usage
+### Running the CLI
+- Prebuilt JAR
+  - A prebuilt jar can be found under `build/libs` with the name `Zendesk-1.0-SNAPSHOT-all.jar`. Simply executing the command `java -jar Zendesk-1.0-SNAPSHOT-all.jar` while in `build/libs` directory can run the CLI
+- Using gradle wrapper
+  - Since this project is built on gradle, you can also use the gradle wrapper through `./gradlew --console plain run` to run the CLI
+
 ### User credentials
 User credentials environmental variables must be set prior to using this project. Two env variables are required:
 - **ZENDESK_USERNAME**: your email for the zendesk account
