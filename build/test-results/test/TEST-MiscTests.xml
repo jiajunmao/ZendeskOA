@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MiscTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-11-29T17:27:34" hostname="Aaron-Rog" time="0.023">
+  <properties/>
+  <testcase name="niceStringTest()" classname="MiscTests" time="0.013"/>
+  <testcase name="niceDateTest()" classname="MiscTests" time="0.002"/>
+  <testcase name="nicePriorityTest()" classname="MiscTests" time="0.001"/>
+  <testcase name="isIntTest()" classname="MiscTests" time="0.001"/>
+  <testcase name="breakStringTest()" classname="MiscTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

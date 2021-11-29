@@ -1,0 +1,6 @@
+!!str 1:
+  str:
+      content: haha
+  array:
+    - array1
+    - array2

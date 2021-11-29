@@ -1,0 +1,18 @@
+root:
+  !!str 1:
+    description: List all tickets
+  !!str 2:
+    description: Select a ticket to view
+  !!str 3: # Exit program
+    description: Exit the program
+
+detail:
+  !!str 1:
+    description: Enter a ticket ID to obtain ticket details
+
+listAll:
+  !!str 1:
+    description: Enter a page number to page through
+
+universal:
+  return: Return to the previous menu
